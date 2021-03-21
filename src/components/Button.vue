@@ -15,7 +15,7 @@ export default {
     },
     methods: {
         onClick() {
-            console.log('oi')    
+            this.$emit('btn-click')    
         }
     }
 }
